@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Tj&HazelWeddingGallery">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+   
+   
+    <title>Tj&HazelWeddingGallery</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/1b794a66d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header" id="header">
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <!-- <a href="#services">Services</a> -->
+            <!-- <a href="#about-me">Skills</a> -->
+            <a href="#gallery">Gallery</a>
+            <!-- <a href="#contact">Contact Us</a> -->
+
+            <span class="active-nav"></span>
+            
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-desc">
+            <h1>Tj & Hazel Wedding Gallery</h1>
+            <p>05.08.2021</p>
+        </div>
+        <div class="audio" id="audio">
+            <audio src="mp3/BTSlights.mp3" type="audio/mp3"  id="song" autoplay></audio>  
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+               
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="gallery-container bg">
+            <div class="gallery-container img-cont">
+                <img src="images/wedpic1.jpg" alt="" class="img">
+                <img src="images/wedpic2.jpg" alt="" class="img">
+                <img src="images/wedpic3.jpg" alt="" class="img">
+                <img src="images/wedpic4.jpg" alt="" class="img">
+                <img src="images/wedpic5.jpg" alt="" class="img">
+                <img src="images/wedpic6.jpg" alt="" class="img">
+                <img src="images/wedpic7.jpg" alt="" class="img">
+                <img src="images/wedpic8.jpg" alt="" class="img">
+                <img src="images/wedpic9.jpg" alt="" class="img">
+                <img src="images/wedpic10.jpg" alt="" class="img">
+                <img src="images/wedpic11.jpg" alt="" class="img">
+                <img src="images/wedpic12.jpg" alt="" class="img">
+                <img src="images/wedpic13.jpg" alt="" class="img">
+                <img src="images/wedpic14.jpg" alt="" class="img">
+                <img src="images/wedpic15.jpg" alt="" class="img">
+                <img src="images/wedpic16.jpg" alt="" class="img">
+                <img src="images/wedpic17.jpg" alt="" class="img">
+                <img src="images/wedpic18.jpg" alt="" class="img">
+                <img src="images/wedpic19.jpg" alt="" class="img">
+                <img src="images/wedpic20.jpg" alt="" class="img">
+                <img src="images/wedpic21.jpg" alt="" class="img">
+                <img src="images/wedpic22.jpg" alt="" class="img">
+                <img src="images/wedpic23.jpg" alt="" class="img">
+                <img src="images/wedpic24.jpg" alt="" class="img">
+                <img src="images/wedpic25.jpg" alt="" class="img">
+                <img src="images/wedpic29.jpg" alt="" class="img img-last">
+            </div>
+            <div class="gallery-container img-cont">
+                <img src="images/wedpic30.jpg" alt="" class="img img-big">
+                <img src="images/wedpic32.jpg" alt="" class="img img-big">
+                <img src="images/wedpic33.jpg" alt="" class="img img-big">
+                <img src="images/wedpic34.jpg" alt="" class="img img-big">
+                <img src="images/wedpic35.jpg" alt="" class="img img-big">
+                <img src="images/wedpic36.jpg" alt="" class="img img-big">
+                <img src="images/wedpic37.jpg" alt="" class="img img-big">
+                <img src="images/wedpic38.jpg" alt="" class="img img-big">
+                <img src="images/wedpic39.jpg" alt="" class="img img-big">
+                <img src="images/wedpic40.jpg" alt="" class="img img-big">
+                <img src="images/wedpic41.jpg" alt="" class="img img-big">
+                <img src="images/wedpic42.jpg" alt="" class="img img-big">
+                <img src="images/wedpic43.jpg" alt="" class="img img-big">
+                <img src="images/wedpic44.jpg" alt="" class="img img-big">
+                <img src="images/wedpic45.jpg" alt="" class="img img-big">
+                <img src="images/wedpic46.jpg" alt="" class="img img-big">
+                <img src="images/wedpic26.jpg" alt="" class="img img-big">
+                <img src="images/wedpic48.jpg" alt="" class="img img-big">
+                <img src="images/wedpic49.jpg" alt="" class="img img-big">
+                <img src="images/wedpic50.jpg" alt="" class="img img-big">
+                <img src="images/wedpic51.jpg" alt="" class="img img-big">
+                <img src="images/wedpic52.jpg" alt="" class="img img-big">
+                <img src="images/wedpic53.jpg" alt="" class="img img-big">
+                <img src="images/wedpic55.jpg" alt="" class="img img-big">
+                <img src="images/wedpic56.jpg" alt="" class="img img-big">
+                <img src="images/wedpic57.jpg" alt="" class="img img-big">
+                <img src="images/wedpic58.jpg" alt="" class="img img-big">
+                <img src="images/wedpic31.jpg" alt="" class="img img-big img-last">
+            </div>
+            <div class="gallery-container img-cont">
+                <img src="images/wedpic59.jpg" alt="" class="img">
+                <img src="images/wedpic60.jpg" alt="" class="img">
+                <img src="images/wedpic61.jpg" alt="" class="img">
+                <img src="images/wedpic62.jpg" alt="" class="img">
+                <img src="images/wedpic63.jpg" alt="" class="img">
+                <img src="images/wedpic64.jpg" alt="" class="img">
+                <img src="images/wedpic65.jpg" alt="" class="img">
+                <img src="images/wedpic66.jpg" alt="" class="img">
+                <img src="images/wedpic67.jpg" alt="" class="img">
+                <img src="images/wedpic68.jpg" alt="" class="img">
+                <img src="images/wedpic69.jpg" alt="" class="img">
+                <img src="images/wedpic70.jpg" alt="" class="img">
+                <img src="images/wedpic71.jpg" alt="" class="img">
+                <img src="images/wedpic72.jpg" alt="" class="img">
+                <img src="images/wedpic73.jpg" alt="" class="img">
+                <img src="images/wedpic74.jpg" alt="" class="img">
+                <img src="images/wedpic75.jpg" alt="" class="img">
+                <img src="images/wedpic76.jpg" alt="" class="img">
+                <img src="images/wedpic77.jpg" alt="" class="img">
+                <img src="images/wedpic78.jpg" alt="" class="img">
+                <img src="images/wedpic79.jpg" alt="" class="img">
+                <img src="images/wedpic80.jpg" alt="" class="img">
+                <img src="images/wedpic81.jpg" alt="" class="img">
+                <img src="images/wedpic82.jpg" alt="" class="img">
+                <img src="images/wedpic83.jpg" alt="" class="img">
+                <img src="images/wedpic84.jpg" alt="" class="img">
+                <img src="images/wedpic85.jpg" alt="" class="img">
+                <img src="images/wedpic86.jpg" alt="" class="img">
+                <img src="images/wedpic87.jpg" alt="" class="img">
+                <img src="images/wedpic47.jpg" alt="" class="img">
+                <img src="images/wedpic27.jpg" alt="" class="img">
+                <img src="images/wedpic28.jpg" alt="" class="img">
+                <img src="images/wedpic54.jpg" alt="" class="img">
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="footer-container">
+            <div class="footer-desc">
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/timot.eslabra/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://github.com/Nuddalz" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/timdev0421/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://x.com/TimDev0421" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container-secondary">
+            <div class="copyright">
+                <div class="copyright-alignment-center">
+                    <span class="right-copyright">Copyright &copy; 2024. Made By:</span><a href="#" target="_blank"> TimDev</a>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+</html>
