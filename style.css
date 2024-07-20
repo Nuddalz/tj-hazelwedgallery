@@ -225,12 +225,20 @@
     margin: 0 0 0 0;
     height: 100%;
 
-    -webkit-filter: brightness(50%);
+    /* -webkit-filter: brightness(50%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: all 1s ease; */
+}
+.gallery .gallery-container.img-cont img{
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
     .gallery #ipix {
     color: black;
@@ -258,7 +266,7 @@
     
 }
 /*-------- Hover effect gallery -------*/
-.gallery .gallery-container.img-cont:hover{
+.gallery .gallery-container.img-cont img:hover{
   -webkit-filter: brightness(100%);
 }
 /*-------- footer ---------*/
