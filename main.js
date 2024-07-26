@@ -14,7 +14,10 @@ let progress = document.getElementById("progress");
 let song = document.getElementById("song");
 let ctrlIcon = document.getElementById("ctrlIcon");
 
+
+
 song.onloadedmetadata = function(){
+    song.autoplay = true;
     progress.max = song.duration;
     progress.value = song.currentTime;
 }
@@ -41,3 +44,4 @@ progress.onchange = function(){
     ctrlIcon.classList.add("fa-pause");
     ctrlIcon.classList.remove("fa-play");
 }
+
